@@ -9,7 +9,7 @@ for i in range(1, 4):
     input_nama = input("Masukkan Nama: ")
     input_pass = input("Masukkan Password: ")
     print("============================")
- 
+
     if nama_valid == input_nama and pass_valid == input_pass:
         masuk = True
         print("login berhasil")
@@ -22,7 +22,7 @@ if masuk == False:
 else:
     data_siswa = []
     kelas_daftar = []
- 
+
     ulang = "iya"
     while ulang == "iya":
 
@@ -49,7 +49,7 @@ else:
             skor = 0
             ikut = "tidak ikut ujian"
             print("Nilai otomatis 0, tidak mengikuti ujian")
- 
+
         data_siswa.append([nama, kelas, ikut, skor])
 
         sudah = False

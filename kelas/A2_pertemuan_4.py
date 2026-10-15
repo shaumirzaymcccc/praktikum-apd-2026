@@ -45,12 +45,12 @@
 #         continue
 #     print("jumlah bilangan ganjil yang di temukan: ", i)
 
-uang = int(input("masukkan jumlah uang uang saku awal: "))
+# uang = int(input("masukkan jumlah uang uang saku awal: "))
 
-while(uang > 0):
-    nominal = int(input("masukkan nominal setiap pengeluaran: "))
-    uang -= nominal
-    print(f"Saldo sekarang: {uang}")
-    break
+# while(uang > 0):
+#     nominal = int(input("masukkan nominal setiap pengeluaran: "))
+#     uang -= nominal
+#     print(f"Saldo sekarang: {uang}")
+#     break
 
-print(f"Total saldo akhir : {nominal}")
+# print(f"Total saldo akhir : {nominal}")
