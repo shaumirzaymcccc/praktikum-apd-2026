@@ -57,7 +57,7 @@ while kotayomi_menu != "3":
                     if len(library) == 0:
                         print("Belum ada manga di sini, nih~")
                     else:
-                        nomor = 1
+                        nomor = 1   
                         for manga in library:
                             print(f"{nomor}. {manga[0]} - {manga[1]}")
                             nomor += 1
