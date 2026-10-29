@@ -120,7 +120,6 @@ while kotayomi_menu != "3":
                         for manga in katalog_rawr:
                             print(f"{nomor}. {manga} - {katalog_rawr[manga]}")
                             nomor += 1
-
                         tambah_manga = input("Judul manga yang mau ditambah: ")
                         if tambah_manga not in katalog_rawr:
                             print("Judulnya nggak ada di katalog, coba cek lagi yaa")
